@@ -1,0 +1,8 @@
+<h1>Photogram</h1>
+
+
+<% @posts.each do |post| %>
+  <%= post.image %>
+  <%= image_tag post.image %>
+  <%= post.caption %>
+<% end %>
